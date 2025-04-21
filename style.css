@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Roboto;
+    color: black;
+}
+
+h1{
+    font-size: 48px;
+    font-weight: 900px;
+    align-self: flex-start;
+}
+
+.body-main{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('images/land.png');
+     background-color: #1F2937; */
+    background-size: 70% 100%;
+    background-repeat: no-repeat; 
+    background-position: center;
+    gap: 50px;
+    height: 500px;
+    padding-bottom:20px;
+}
+
+.header-title{
+    color: white;
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+
+}
+
+a.links{
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.body-mid{
+    border-right: solid 1px grey;
+    border-left: solid 1px grey;
+    padding: 550px;    
+    flex-shrink: 0;
+}
+
+.button-class{
+    border-radius: 5px;
+    border-style: none;
+    color: white;
+    background-color: #3882F6;
+    padding: 5px 0px 5px;
+    margin-top: 10px;
+    width: 150px;
+    text-decoration: none;
+
+}
+
+.button-class a{
+    color: white;
+}
+
+.header-left p{
+    margin-top: 10px;
+    font-size: 18px;
+}
