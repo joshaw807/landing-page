@@ -104,14 +104,34 @@ h1{
     
 }
 
-.card {
+.projects{
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-left {
     padding: 16px;
     width: 300px;
     border: 1px solid #000000;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    
-    flex: 1;
+    flex:1 1 50%;
+    margin: 15px 0px 15px 0px;
     background-color: darkslategray;
+    
+}
+
+.card-right {
+    padding: 16px;
+    width: 300px;
+    border: 1px solid #000000;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+    flex:1 1 50%;
+    margin: 15px 0px 15px 0px;
+    background-color: darkslategray;
+    flex-basis: 50%;
+    /* margin-left: auto; */
 }
 
 .button-class{
