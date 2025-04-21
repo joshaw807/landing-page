@@ -6,6 +6,11 @@
 body{
     font-family: Arial, Roboto;
     color: black;
+    background-attachment: fixed;
+    background-image: url("images/mountain.png");
+    flex-flow: column wrap;
+    align-items: center;
+    flex: auto;
 }
 
 h1{
@@ -16,33 +21,124 @@ h1{
 
 .container-main{
     display: flex;
-    border: solid black;
+    /* border: solid black; */
     height: 800px;
     width: 800px;
-    margin: 150px;
-    background-color: #1F2937;
+    margin: 75px;
+    /* backgr ound-color: #1F2937; */
     flex-shrink: 0;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: flex-start;
+    
+}
+
+.section3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background-color: white;
+}
+
+.block3{
+    background-color: #3882f6;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
 }
 
 .container-background{
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: green;
 }
 
 .container-header{
+    background-color: white;
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    flex: 0 0 25%;
+    padding: 20px 80px 20px 80px;
+    align-items: center;
+    background-color: darkslategray;
+}
+
+.container-header-right{
+   
+    margin: 10px;
+}
+
+.container-header-right p {
+    font-weight: bold;
+}
+
+.section2{
+    background-color: darkslategray;
+    display: flex;
+    padding: 20px;
+    
+}
+
+.context
+{
+    font-family: 'Inconsolata', Arial, sans-serif;
+    max-width: 400px;
+    text-align: center;
+}
+
+.container-header img{
+    width: 150px;
     height: 150px;
-    width: 800px;
+    border-radius: 5px;
+    
 }
 
 .card {
     padding: 16px;
     width: 300px;
-    border: 1px solid #eee;
+    border: 1px solid #000000;
     box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-    border-radius: 4px;
+    
     flex: 1;
+    background-color: darkslategray;
+}
+
+.button-class{
+ 
+    background: cyan;
+
+    font-weight: bold;
+    font-size: small;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    margin-top: auto;
+    background-color: darkolivegreen;
 }
 
 /* .body-main{
